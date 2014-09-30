@@ -57,7 +57,7 @@
     <rule ref="Zend.Files.ClosingTag"/>
 
     <!-- We even make our own! -->
-    <rule ref="HWS.Classes.ObjectInstantioation"/>
+    <rule ref="HWS.Classes.ObjectInstantiation"/>
     <rule ref="HWS.Performance.CollectionCount"/>
     <rule ref="HWS.Performance.Loop"/>
     <rule ref="HWS.Style.StringPosition"/>
