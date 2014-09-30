@@ -63,11 +63,11 @@
     <rule ref="Healthy_Mage.Style.StringPosition"/>
     <rule ref="Healthy_Mage.Style.Var"/>
 
-    <!-- Lines can be 120 chars long, show errors at 140 chars -->
+    <!-- Lines can be 100 chars long, show errors at 120 chars -->
     <rule ref="Generic.Files.LineLength">
         <properties>
-            <property name="lineLimit" value="120"/>
-            <property name="absoluteLineLimit" value="140"/>
+            <property name="lineLimit" value="100"/>
+            <property name="absoluteLineLimit" value="120"/>
         </properties>
     </rule>
 
