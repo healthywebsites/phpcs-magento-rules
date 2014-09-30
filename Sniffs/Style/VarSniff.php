@@ -1,6 +1,6 @@
 <?php
 
-class HWS_Sniffs_Style_VarSniff implements PHP_CodeSniffer_Sniff
+class Healthy_Mage_Sniffs_Style_VarSniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

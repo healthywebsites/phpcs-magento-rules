@@ -1,6 +1,6 @@
 <?php
 
-class HWS_Sniffs_Classes_ObjectInstantiationSniff
+class Healthy_Mage_Sniffs_Classes_ObjectInstantiationSniff
     implements PHP_CodeSniffer_Sniff
 {
     protected $disallowedPrefixes = array(

@@ -1,6 +1,6 @@
 <?php
 
-class HWS_Sniffs_Performance_CollectionCountSniff implements PHP_CodeSniffer_Sniff
+class Healthy_Mage_Sniffs_Performance_CollectionCountSniff implements PHP_CodeSniffer_Sniff
 {
     public $methods = array(
         'count',

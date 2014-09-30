@@ -1,6 +1,6 @@
 <?php
 
-class HWS_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
+class Healthy_Mage_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
 {
     protected $countFunctions = array(
         'sizeof',
@@ -52,6 +52,11 @@ class HWS_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
+
+        // Does not apply for install scripts
+        if (preg_match('/(-install-[0-9\.]*\.php)/', $phpcsFile->getFileName())) {
+            return;
+        }
 
         if (!array_key_exists('scope_opener', $tokens[$stackPtr])) {
             return;

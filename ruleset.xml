@@ -57,11 +57,11 @@
     <rule ref="Zend.Files.ClosingTag"/>
 
     <!-- We even make our own! -->
-    <rule ref="HWS.Classes.ObjectInstantiation"/>
-    <rule ref="HWS.Performance.CollectionCount"/>
-    <rule ref="HWS.Performance.Loop"/>
-    <rule ref="HWS.Style.StringPosition"/>
-    <rule ref="HWS.Style.Var"/>
+    <rule ref="Healthy_Mage.Classes.ObjectInstantiation"/>
+    <rule ref="Healthy_Mage.Performance.CollectionCount"/>
+    <rule ref="Healthy_Mage.Performance.Loop"/>
+    <rule ref="Healthy_Mage.Style.StringPosition"/>
+    <rule ref="Healthy_Mage.Style.Var"/>
 
     <!-- Lines can be 120 chars long, show errors at 140 chars -->
     <rule ref="Generic.Files.LineLength">

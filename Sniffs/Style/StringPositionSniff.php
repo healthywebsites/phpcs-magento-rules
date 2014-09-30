@@ -5,7 +5,7 @@
  *
  * Class Ecg_Sniffs_Strings_StringPositionSniff
  */
-class HWS_Sniffs_Style_StringPositionSniff implements PHP_CodeSniffer_Sniff
+class Healthy_Mage_Sniffs_Style_StringPositionSniff implements PHP_CodeSniffer_Sniff
 {
     public $functions = array(
         'strpos',
