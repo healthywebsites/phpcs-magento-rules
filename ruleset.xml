@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Healthy_Mage">
+<ruleset name="Healthy_Magento">
 
     <description>Healthy Websites coding standards</description>
     <rule ref="Generic.Classes.DuplicateClassName"/>
@@ -45,7 +45,6 @@
     <rule ref="Squiz.Functions.GlobalFunction"/>
     <rule ref="Squiz.Operators.IncrementDecrementUsage"/>
     <rule ref="Squiz.Operators.ValidLogicalOperators"/>
-    <rule ref="Squiz.PHP.CommentedOutCode"/>
     <rule ref="Squiz.PHP.DiscouragedFunctions"/>
     <rule ref="Squiz.PHP.Eval"/>
     <rule ref="Squiz.PHP.GlobalKeyword"/>
@@ -62,6 +61,7 @@
     <rule ref="Healthy_Mage.Performance.Loop"/>
     <rule ref="Healthy_Mage.Style.StringPosition"/>
     <rule ref="Healthy_Mage.Style.Var"/>
+    <rule ref="Healthy_Mage.Style.CommentedOutCode"/>
 
     <!-- Lines can be 100 chars long, show errors at 120 chars -->
     <rule ref="Generic.Files.LineLength">
